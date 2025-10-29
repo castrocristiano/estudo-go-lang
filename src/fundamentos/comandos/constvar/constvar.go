@@ -19,8 +19,10 @@ func main() {
 		C = 3
 		D = 4
 	)
+
 	println("Constantes A e B:", A, B)
 	fmt.Printf("Variáveis C e D: %d %d\n", C, D)
+
 	g,h,i :=2, false, "oia"
 	fmt.Println(g,h,i)
 }
