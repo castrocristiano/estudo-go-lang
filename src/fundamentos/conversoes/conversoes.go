@@ -35,11 +35,13 @@ func main() {
 
 	valor, _ := strconv.ParseBool("true") // string para bool
 	valor2, _ := strconv.ParseBool("0") // string para bool
+	
 	if valor {
 		fmt.Println("Verdadeiro")
 	} else {
 		fmt.Println("Falso")
 	}
+
 	if valor2 {
 		fmt.Println("Verdadeiro")
 	} else {
