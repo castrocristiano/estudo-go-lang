@@ -1,6 +1,5 @@
 package main
 
-
 func soma(a int, b int) int {
 	return a + b
 }
@@ -8,4 +7,3 @@ func soma(a int, b int) int {
 func imprimir(valor int) {
 	println(valor)
 }
-
